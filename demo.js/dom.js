@@ -26,13 +26,17 @@ var header=document.getElementById('main-header');
 //headerTitle.style.borderBottom='solid 3px #000';
 header.style.borderBottom='solid 3px #000';
 //GETELEMENTSBYCLASSNAME//
-//var AddItems=document.getElementsByClassName("title");
-//AddItems.style.font='bold';
-//AddItems.style.backgroundColor='green';
+var items=document.getElementsByClassName('list-group-item');
+items[2].style.backgroundColor='green';
+for(var i =0; i <items.length; i++)
+{
+    items[i].style.fontWeight='bold';
+}
 //QUERYSELECTORALL//
 var titles=document.querySelectorAll('.title');
 titles[0].style.fontWeight='bold';
 titles[0].style.backgroundColor='green';
+
 
 
 
