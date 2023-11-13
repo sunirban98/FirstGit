@@ -26,16 +26,19 @@ var header=document.getElementById('main-header');
 //headerTitle.style.borderBottom='solid 3px #000';
 header.style.borderBottom='solid 3px #000';
 //GETELEMENTSBYCLASSNAME//
-var items=document.getElementsByClassName('list-group-item');
-items[2].style.backgroundColor='green';
-for(var i =0; i <items.length; i++)
-{
-    items[i].style.fontWeight='bold';
-}
+//Var items=document.getElementsByClassName('list-group-item');
+//items[2].style.backgroundColor='green';
+//for(var i =0; i <items.length; i++)
+//{
+    //items[i].style.fontWeight='bold';
+//}
+//GETELEMENTSBYTAGNAME//
+var li=document.getElementsByTagName('li');
+
 //QUERYSELECTORALL//
-var titles=document.querySelectorAll('.title');
-titles[0].style.fontWeight='bold';
-titles[0].style.backgroundColor='green';
+//var titles=document.querySelectorAll('.title');
+//titles[0].style.fontWeight='bold';
+//titles[0].style.backgroundColor='green';
 
 
 
