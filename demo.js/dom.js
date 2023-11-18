@@ -39,6 +39,17 @@ var li=document.getElementsByTagName('li');
 //var titles=document.querySelectorAll('.title');
 //titles[0].style.fontWeight='bold';
 //titles[0].style.backgroundColor='green';
+//QUERYSELECTOR//
+//var secondItems=document.querySelector('.list-group-item:nth-child(2)');
+//secondItems.style.backgroundColor='green';
+//QUERYSELECTORALL//
+var odd=document.querySelectorAll('li:nth-child(odd)');
+for(var i=0;i<odd.length;i++)
+{
+    odd[i].style.backgroundColor='green';
+}
+
+
 
 
 
