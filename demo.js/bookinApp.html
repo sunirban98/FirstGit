@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1 style="text-align:center;color:tomato">Book a call</h1>
+</br>
+<h4 style="text-align:center">Book a call slot and our representative will call you within 1hr of selected time.</h4>
+<hr width="100%" size="4px">
+<style>
+    form{
+        background-color: beige;
+    }
+</style>
+<body>
+    <form action="#" onsubmit="saveToLocalStorage(event)">
+    Name:<input type="text" id="name" required><br><br>
+    Email:<input type="text" id="mail" required><br><br>
+    Phone:<input type="text" id="number"><br><br>
+    Time for Call:<input type="date"><input type="time"><br><br>
+    <input type="submit" value="Get a call">
+    </form>
+    <script src="bookingApp.js"></script>
+</body>
+</html>
