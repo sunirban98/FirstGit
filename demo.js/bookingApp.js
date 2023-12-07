@@ -19,6 +19,15 @@ function showUserOnScreen(obj){
     const parentElement=document.getElementById('listOfitems');
     const childElement=document.createElement('li');
     childElement.textContent=obj.name+'-'+obj.mail+'-'+obj.number;
+    const deleteButton=document.createElement('input');
+    deleteButton.type="button";
+    deleteButton.value='Delete';
+    deleteButton.onclick=()=>{
+        localStorage.removeItem=(obj.mail);
+        parentElement.removeChild(childElement);
+        parentElement.removeChild(deleteButton);
+    }
+    parentElement.appendChild(deleteButton);
     parentElement.appendChild(childElement);
 }
     
